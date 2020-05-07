@@ -1,0 +1,21 @@
+
+ <form method="POST" action="search">
+<input type="text" name="kitaparama"/>
+<input type="submit" value="Search"/>
+</form>
+<br>
+<br>
+<form method="POST" action="kitap">
+<input type="text" name="kitap"/>
+<input type="submit" value="kitap al"/>
+</form>
+<br>
+<br>
+<form ref='uploadForm' 
+      id='uploadForm' 
+      action='kitapver' 
+      method='post' 
+      encType="multipart/form-data">
+        <input type="file" name="sampleFile" />
+        <input type='submit' value='Upload!' />
+    </form> 
